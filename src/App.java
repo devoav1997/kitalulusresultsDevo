@@ -171,6 +171,6 @@ public class App {
 
         driver.findElement(By.xpath("//*[@id='__next']/div[2]/div[2]/div[2]/div[2]/div[1]/div/span/img")).click();
         System.out.println("Click Bookmark/Love Passed");
-
+// finish
     }
 }
