@@ -1,22 +1,5 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-"# kitalulusQATestResult" 
-"# kitalulusQATestResult" 
-"# kitalulusQATestResults" 
-"# kitalulusQATestResults" 
+## Untuk Menjalankan Test
+- Install Java Extension Pack From VS Code Extensions  https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+- harus add selenium library pada java projects di bagian Referenced Libraries di vscode, folder sudah ada di folder github nama folder selenium-java-4.1.2 copy semua file termasuk didalam folder lib yang ada di folder selenium-java-4.1.2 
+-kemudian path chromedriver di System.setProperty chromedriver sudah ada bagian main project namannya chromedriver.exe di path ke situ
+-kemudian klik tombol run
